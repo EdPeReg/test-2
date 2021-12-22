@@ -9,9 +9,15 @@ struct Book {
 int main()
 {
     std::vector<Book> books;
-    Book b1;
+    Book b1, b2;
     b1.title = "Senor de los anillos";
     b1.ismb = "6441kajnc";
+
+    b2.title = "Pocahontas";
+    b2.ismb = "01972391872381yhdsagdhjagdhjdaghs9812y31";
+
+    books.push_back(b1);
+    books.push_back(b2);
 
     return 0;
 }
