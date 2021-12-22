@@ -20,7 +20,7 @@ int main()
     books.push_back(b2);
 
     b3.title = "100 anos de soledad";
-    b3.ismb = "123yuias";
+    b3.ismb = "asdadsljadkslajdksladjksldjasjdhakjda123yuias";
     books.push_back(b3);
 
     return 0;
