@@ -9,7 +9,7 @@ struct Book {
 int main()
 {
     std::vector<Book> books;
-    Book b1, b2;
+    Book b1, b2, b3;
     b1.title = "Senor de los anillos";
     b1.ismb = "6441kajnc";
 
@@ -18,6 +18,10 @@ int main()
 
     books.push_back(b1);
     books.push_back(b2);
+
+    b3.title = "100 anos de soledad";
+    b3.ismb = "123yuias";
+    books.push_back(b3);
 
     return 0;
 }
