@@ -1,20 +1,17 @@
 #include <iostream>
+#include <vector>
+
+struct Book {
+    std::string title;
+    std::string ismb;
+};
 
 int main()
 {
-    int *ptr = new int;
+    std::vector<Book> books;
+    Book b1;
+    b1.title = "Senor de los anillos";
+    b1.ismb = "6441kajnc";
 
-    error here
-
-
-
-
-
-        multiple more errors
-
-
-
-
-    puts("yes");
     return 0;
 }
