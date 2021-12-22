@@ -23,5 +23,7 @@ int main()
     b3.ismb = "asdadsljadkslajdksladjksldjasjdhakjda123yuias";
     books.push_back(b3);
 
+    puts("finished");
+
     return 0;
 }
